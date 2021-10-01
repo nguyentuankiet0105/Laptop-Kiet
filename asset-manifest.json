@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Laptop-Kiet/static/css/main.6e90df98.chunk.css",
-    "main.js": "/Laptop-Kiet/static/js/main.38bb755f.chunk.js",
-    "main.js.map": "/Laptop-Kiet/static/js/main.38bb755f.chunk.js.map",
-    "runtime-main.js": "/Laptop-Kiet/static/js/runtime-main.239c072e.js",
-    "runtime-main.js.map": "/Laptop-Kiet/static/js/runtime-main.239c072e.js.map",
+    "main.js": "/Laptop-Kiet/static/js/main.3daea775.chunk.js",
+    "main.js.map": "/Laptop-Kiet/static/js/main.3daea775.chunk.js.map",
+    "runtime-main.js": "/Laptop-Kiet/static/js/runtime-main.a2b5deeb.js",
+    "runtime-main.js.map": "/Laptop-Kiet/static/js/runtime-main.a2b5deeb.js.map",
     "static/css/2.1cae2118.chunk.css": "/Laptop-Kiet/static/css/2.1cae2118.chunk.css",
-    "static/js/2.49966c34.chunk.js": "/Laptop-Kiet/static/js/2.49966c34.chunk.js",
-    "static/js/2.49966c34.chunk.js.map": "/Laptop-Kiet/static/js/2.49966c34.chunk.js.map",
-    "static/js/3.d1f05c48.chunk.js": "/Laptop-Kiet/static/js/3.d1f05c48.chunk.js",
-    "static/js/3.d1f05c48.chunk.js.map": "/Laptop-Kiet/static/js/3.d1f05c48.chunk.js.map",
+    "static/js/2.bd010826.chunk.js": "/Laptop-Kiet/static/js/2.bd010826.chunk.js",
+    "static/js/2.bd010826.chunk.js.map": "/Laptop-Kiet/static/js/2.bd010826.chunk.js.map",
+    "static/js/3.a0e531ec.chunk.js": "/Laptop-Kiet/static/js/3.a0e531ec.chunk.js",
+    "static/js/3.a0e531ec.chunk.js.map": "/Laptop-Kiet/static/js/3.a0e531ec.chunk.js.map",
     "index.html": "/Laptop-Kiet/index.html",
     "static/css/2.1cae2118.chunk.css.map": "/Laptop-Kiet/static/css/2.1cae2118.chunk.css.map",
     "static/css/main.6e90df98.chunk.css.map": "/Laptop-Kiet/static/css/main.6e90df98.chunk.css.map",
-    "static/js/2.49966c34.chunk.js.LICENSE.txt": "/Laptop-Kiet/static/js/2.49966c34.chunk.js.LICENSE.txt",
+    "static/js/2.bd010826.chunk.js.LICENSE.txt": "/Laptop-Kiet/static/js/2.bd010826.chunk.js.LICENSE.txt",
     "static/media/Ab_1.fc54ddcf.png": "/Laptop-Kiet/static/media/Ab_1.fc54ddcf.png",
     "static/media/Ab_2.bb004496.png": "/Laptop-Kiet/static/media/Ab_2.bb004496.png",
     "static/media/Ab_3.d714f2ac.png": "/Laptop-Kiet/static/media/Ab_3.d714f2ac.png",
@@ -37,10 +37,10 @@
     "static/media/styles.css": "/Laptop-Kiet/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.239c072e.js",
+    "static/js/runtime-main.a2b5deeb.js",
     "static/css/2.1cae2118.chunk.css",
-    "static/js/2.49966c34.chunk.js",
+    "static/js/2.bd010826.chunk.js",
     "static/css/main.6e90df98.chunk.css",
-    "static/js/main.38bb755f.chunk.js"
+    "static/js/main.3daea775.chunk.js"
   ]
 }
