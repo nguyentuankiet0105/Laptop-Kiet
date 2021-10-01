@@ -1,0 +1,76 @@
+.Support {
+  @include flexCenter;
+  gap: 130px;
+  width: 100%;
+  height: 275px;
+  background-color: $blue-light;
+
+  &__content {
+    height: 170px;
+    width: 265px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 25px;
+    text-align: center;
+    line-height: 18px;
+    &--title {
+      h3 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+
+        &:hover {
+          cursor: pointer;
+          color: rgba(0, 0, 0, 1);
+          transition: color 0.3s ease-in-out;
+        }
+      }
+    }
+
+    &--subTitle {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 25px;
+      text-align: center;
+    }
+
+    @media only screen and (max-width: 768px) {
+      height: 111px;
+      width: 229px;
+      padding: 0 5px;
+
+      &--icon {
+        img {
+          width: 80%;
+        }
+      }
+
+      &--title {
+        h3 {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 700;
+          text-align: center;
+        }
+      }
+
+      &--subTitle {
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 17px;
+        letter-spacing: 0px;
+        text-align: center;
+      }
+    }
+  }
+  &__mobileVisible {
+    display: none;
+  }
+  @media only screen and (max-width: 450px) {
+  }
+}

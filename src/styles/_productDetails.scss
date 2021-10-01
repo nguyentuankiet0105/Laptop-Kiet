@@ -1,0 +1,117 @@
+.ProductDetails {
+  width: 100%;
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    height: 100px;
+  }
+
+  &__navigation {
+    width: 60%;
+    a {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+      color: $gray;
+      margin-right: 30px;
+      transition: all 0.3s ease-in;
+      &:first-child,
+      &:focus,
+      &:hover {
+        color: black;
+        border-bottom: 1px solid $blue;
+      }
+    }
+  }
+  &__addProduct {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
+    &--btn {
+      margin-left: 140px;
+      margin-bottom: 40px;
+      margin-top: -20px;
+      width: 300px;
+      background-color: $blue;
+      width: 150px;
+      height: 50px;
+      border-radius: 50px;
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        color: white;
+      }
+    }
+    .addProduct--quantity__form {
+      width: 70px;
+      background-color: #f5f7ff;
+      margin-left: 7px;
+    }
+  }
+
+  .container__info {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid $gray;
+  }
+  &__aboutProduct {
+    width: 60%;
+    background-color: #f5f7ff;
+    .wrapper__content {
+      padding: 110px 120px 60px 370px;
+      h1 {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+      }
+      a {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      ul,
+      p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 24px;
+      }
+      ul {
+        margin: 24px 0 24px 23px;
+        li {
+          list-style-type: initial;
+        }
+      }
+    }
+  }
+  &__imageProduct {
+    .addProductbtn {
+      margin-left: 140px;
+      margin-bottom: 40px;
+      background-color: #0156ff;
+      width: 300px;
+      height: 50px;
+      border-radius: 50px;
+    }
+    flex: 1;
+    .wrapper__image {
+      display: flex;
+      width: 470px;
+      height: 470px;
+      margin: 60px 0 20px 0;
+      &--icon {
+        display: flex;
+        flex-direction: column;
+        gap: 5px 0;
+        margin: 36px 54px 0 23px;
+      }
+      .ant-image {
+        flex: 1;
+      }
+    }
+  }
+  
+}

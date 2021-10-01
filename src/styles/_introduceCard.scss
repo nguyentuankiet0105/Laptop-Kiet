@@ -1,0 +1,26 @@
+.introduceCard {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 103%;
+
+  &__content {
+    width: 130px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 130%;
+    text-align: center;
+    margin-top: 145px;
+  }
+  &__link {
+    margin-bottom: 32px;
+    font-size: 13px;
+    line-height: 115%;
+    color: white;
+    text-decoration: underline;
+  }
+}

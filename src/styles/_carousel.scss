@@ -1,0 +1,11 @@
+.Carousel--banner {
+  img {
+    width: 100%;
+  }
+
+  li {
+    box-sizing: border-box;
+    background-color: $gray-dark;
+    width: 15px;
+  }
+}

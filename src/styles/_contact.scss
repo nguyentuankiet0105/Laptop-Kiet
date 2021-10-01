@@ -1,0 +1,61 @@
+.contact {
+  width: 100%;
+  min-height: 500px;
+  display: inline-block;
+  margin-top: 51px;
+
+  &__Form {
+    width: 70%;
+    display: block;
+    float: left;
+    margin: 10px 17px;
+
+    p {
+      font-weight: 470;
+
+    }
+
+    &--input {
+      height: 50px;
+      width: 449px;
+      border-radius: 4px;
+    }
+
+    textarea {
+      width: 96%;
+    }
+
+    button {
+      height: 50px;
+      width: 151px;
+      border-radius: 50px;
+    }
+  }
+
+  &__Content {
+    display: block;
+    width: 20%;
+    float: left;
+    margin: 80px 0;
+
+    h3 {
+      font-weight: 650;
+    }
+
+    p {
+      margin: 0 21px;
+      font-weight: 470;
+    }
+
+    a {
+      margin: 0 21px;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    margin-top: 121px;
+
+  }
+  @media only screen and (max-width: 450px) {
+    margin-top: 91px;
+  }
+}

@@ -1,0 +1,140 @@
+//common
+.Menu-Filter,
+.BrandCatalog,
+.CompareProducts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 234px;
+  margin-bottom: 7px;
+  background-color: $blue-light;
+  &__Wrapper {
+    padding: 20px 16px;
+  }
+  &__heading {
+    margin-bottom: 17px;
+    h2 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .btn--clear {
+      border: 2px solid #a2a6b0;
+      background-color: $blue-light;
+      a {
+        color: rgba(162, 166, 176, 1);
+      }
+    }
+  }
+}
+
+.btn {
+  width: 200px;
+  height: 37px;
+  border-radius: 50px;
+  a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(162, 166, 176, 1);
+  }
+}
+
+//Filter
+.Menu-Filter {
+  &__Wrapper {
+    padding: 20px 16px;
+  }
+
+  &__category {
+    .ant-menu {
+      border: none;
+      background: none;
+      &-item {
+        padding: 0 !important;
+      }
+      span {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 27px;
+      }
+    }
+    .ant-menu-sub.ant-menu-inline > .ant-menu-item {
+      height: 25px;
+    }
+    .ant-menu-submenu-title {
+      padding: 0 !important;
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+    .ant-menu-submenu-arrow {
+      padding-left: 12px;
+    }
+    .wrap--RadioColor {
+      display: flex;
+      gap: 0 15px;
+      .customRadio {
+        width: 27px;
+        height: 27px;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        &::before {
+          content: "";
+          width: 35px;
+          height: 34px;
+          border: 2px solid $blue;
+          border-radius: 50%;
+          position: absolute;
+          z-index: 0;
+          top: -4px;
+          left: -4px;
+          opacity: 0;
+        }
+        &:hover {
+          cursor: pointer;
+        }
+        &:active > &::before {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  .btn--apply {
+    background-color: $blue;
+    color: white;
+  }
+}
+//Brand
+.BrandCatalog {
+  &__image {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 15px;
+    background-color: white;
+    padding: 20px 10px;
+    img {
+      width: 100px;
+    }
+  }
+}
+
+//Compare Products
+.CompareProducts {
+  &__heading {
+    width: 200px;
+    margin-bottom: 0;
+    p {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 17px;
+      margin-bottom: 0;
+    }
+  }
+}

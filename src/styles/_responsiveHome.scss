@@ -1,0 +1,432 @@
+//tablet ipad
+
+@include Responsive(MD) {
+  .hide-md {
+    display: none;
+  }
+  .show-md {
+    display: block;
+  }
+  .container {
+    padding: 0 20px;
+  }
+  .header .wrap--heading {
+    height: 64px;
+  }
+  .Carousel--banner {
+    margin-top: 64px;
+  }
+  .ant-carousel .slick-slider {
+    padding: 0;
+  }
+  .Carousel--banner {
+    margin-top: 90px;
+  }
+  .wrapper__carouselNewProduct .react-multiple-carousel__arrow--right {
+    right: 12px;
+  }
+  .header .tableVisible .header__iconShortCut {
+    gap: 0 12px;
+    margin-left: 5px;
+  }
+
+  .branch {
+    flex-wrap: wrap;
+    gap: 5px 23px;
+    justify-content: flex-start;
+  }
+  .lazyLoad-wrapper {
+    grid-template-areas:
+      "navSub navSub navSub"
+      "banner productCart productCart";
+    .sub__navigation {
+      width: 70%;
+      padding-bottom: 1px;
+    }
+    .introduceCard {
+      padding: 15px 50px;
+      margin-right: 18px;
+    }
+    .productCard {
+      padding: 15px 36px;
+    }
+    .react-multiple-carousel__arrow--right {
+      right: 10px;
+    }
+  }
+  .newsOffer {
+    gap: 20px 6px;
+  }
+  .Support {
+    background-color: white;
+    gap: 11px;
+    &__content {
+      width: auto;
+    }
+  }
+  .catalogProduct .Support {
+    gap: 20px;
+    background-color: #f5f7ff;
+  }
+  .Footer {
+    .container {
+      padding: 0 60px;
+    }
+    &__SignUpNews {
+      &--title {
+        h2 {
+          font-size: 18px;
+          line-height: 132.5%;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+      &--form {
+        width: 186px;
+      }
+    }
+    &__information {
+      flex-direction: column;
+      margin: 0 20px;
+      border: none;
+      padding: 29px 0 15px 0;
+      .wrap__title {
+        margin-bottom: 20px;
+        border-bottom: 1px solid white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: 0.3s ease-in;
+        .transformArrowUp-md {
+          transform: rotate(180deg);
+          transition: 0.5s ease-in;
+        }
+        .transformArrowDown-md {
+          transition: 0.5s ease-in;
+        }
+      }
+      h2 {
+        margin-bottom: 12px;
+        font-size: 16px;
+      }
+      li {
+        font-size: 12px;
+      }
+      ul {
+        margin-left: 15px;
+      }
+    }
+  }
+  .catalogProduct {
+    .ant-breadcrumb {
+      margin: 64px 0 0 0;
+    }
+    .dropDown-show {
+      display: none;
+    }
+    .container {
+      padding: 0 9px;
+    }
+    .tagProduct {
+      display: none;
+    }
+    .MoreInfo--text {
+      padding: 0 17px;
+    }
+    .Menu-Filter,
+    .BrandCatalog,
+    .CompareProducts {
+      width: 220px;
+      &__Wrapper {
+        padding: 20px 10px;
+      }
+    }
+    &__navBar--left {
+      display: none;
+    }
+    &__navBar--right {
+      padding-right: 10px;
+      .itemNumber {
+        width: auto;
+      }
+      .ant-dropdown-trigger {
+        height: 40px !important;
+      }
+      .icon {
+        gap: 0 8px;
+      }
+    }
+    .CatalogColumLeft {
+      .bannerAdvertisement {
+        img {
+          width: 220px;
+        }
+      }
+    }
+    .BrandCatalog__image {
+      padding: 20px 0px;
+      width: 220px;
+    }
+    .catalogProduct__wrapProduct {
+      margin: 12px 0 0 4px;
+      .productCard {
+        width: 171px;
+        .productCard__wrapButton .btn--add {
+          width: 114px;
+          padding: 6px 0;
+        }
+        .anticon-shopping-cart,
+        span {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+  .productCardRow {
+    width: 510px !important;
+    height: 240px !important;
+    &__wrap--image img {
+      height: 145px !important;
+      width: 145px !important;
+    }
+    .productCardRow__productParameters {
+      display: none;
+    }
+    .productCardRow__content {
+      gap: 13px 0;
+    }
+    .productCardRow__content--price {
+      margin-bottom: 0;
+    }
+    .productCardRow__status {
+      padding: 15px 0px 30px 0;
+    }
+  }
+}
+
+//mobile
+
+@include Responsive(XS) {
+  .hide-xs {
+    display: none;
+  }
+  .show-xs {
+    display: block;
+  }
+  .container {
+    padding: 0 15px;
+  }
+  .Carousel--banner {
+    margin-top: 64px;
+  }
+  .header .wrap--heading {
+    padding: 0;
+  }
+  .wrapper__carouselNewProduct--title {
+    margin-bottom: 7px;
+    h2 {
+      font-size: 18px;
+      line-height: 27px;
+    }
+    a {
+      font-size: 10px;
+      line-height: 115%;
+      text-decoration-line: underline;
+    }
+  }
+  .wrapper__carouselNewProduct {
+    .productCard {
+      max-width: 170px;
+      .btn--add {
+        width: 125px;
+        padding: 6px 5px;
+        height: 40px;
+      }
+    }
+  }
+  .wrapper__carouselNewProduct {
+    .react-multiple-carousel__arrow--right {
+      right: 4px;
+    }
+  }
+  .ZipPay {
+    height: 120px;
+    flex-direction: column;
+    img + span {
+      display: none;
+    }
+    &__content {
+      font-weight: 400;
+      margin-top: 18px;
+      text-align: center;
+      line-height: initial;
+    }
+  }
+  .lazyLoad-wrapper {
+    grid-template-areas:
+      "banner"
+      "navSub"
+      "productCart";
+    .react-multiple-carousel__arrow--right,
+    .react-multiple-carousel__arrow--left {
+      display: none;
+    }
+    .sub__navigation {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 5px 0;
+      a {
+        margin-right: 15px;
+      }
+    }
+    .productCard {
+      padding: 15px 25px;
+      margin-left: 54px;
+    }
+    .introduceCard {
+      width: 100%;
+      margin: 0 0 16px 0;
+      padding: 0;
+      background-size: 100% 100%;
+      &__content {
+        width: auto;
+        margin: 25px 0 15px 0;
+      }
+      &__link {
+        margin-bottom: 18px;
+      }
+    }
+  }
+  .branch {
+    height: auto;
+    padding: 0;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+    img {
+      width: 127px;
+    }
+  }
+  .container--newsOffer {
+    display: none;
+  }
+  .Support {
+    flex-direction: column;
+    padding: 25px 45px;
+    height: auto;
+    gap: 20px 0;
+    &__content {
+      height: auto;
+      &--icon {
+        img {
+          width: 45px;
+          height: 45px;
+        }
+      }
+      &--title {
+        h3 {
+          font-size: 14px;
+        }
+      }
+      &--subtitle {
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  .Footer {
+    .container {
+      padding: 0 23px;
+    }
+    &__SignUpNews {
+      flex-direction: column;
+      padding-top: 35px;
+      &--form {
+        width: 329px;
+        height: 40px;
+        .input--email {
+          padding: 7px;
+        }
+        .btn--subscribe {
+          margin-left: 13px;
+          height: 40px;
+        }
+      }
+    }
+    &__information {
+      margin: 0;
+      padding: 15px 0 15px 0;
+      h2 {
+        font-size: 12px;
+      }
+    }
+    &__social {
+      padding: 0 0 18px 0;
+      flex-wrap: wrap;
+      gap: 25px;
+      &--pay {
+        order: 3;
+        gap: 0 10px;
+        margin: 0 54px;
+      }
+      &--copyright {
+        font-size: 10px;
+      }
+    }
+  }
+  .catalogProduct {
+    &__navBar--right {
+      gap: 0 0;
+      padding-right: 0;
+      flex-wrap: wrap;
+      .icon {
+        display: none !important;
+      }
+      .itemNumber {
+        order: 3;
+      }
+      .btn-filter {
+        width: 158px;
+        .ant-btn {
+          width: 100%;
+          font-weight: bold;
+          font-size: 12px;
+          height: 40px;
+        }
+      }
+    }
+    .CatalogColumLeft {
+      display: none;
+    }
+    .ant-breadcrumb {
+      padding: 11px 0 !important;
+    }
+    .catalogProduct--h1 {
+      font-size: 18px;
+      line-height: 27px;
+      font-weight: bold;
+      margin-bottom: 14px;
+    }
+  }
+  .Menu-Filter {
+    width: auto !important;
+    background-color: #fff !important;
+    &__Wrapper {
+      padding: 0 !important;
+    }
+    .btn--apply {
+      margin-top: 15px;
+    }
+  }
+  .Menu-Filter__heading .btn--clear {
+    display: none;
+  }
+  .Menu-Filter__heading h2 {
+    text-align: start !important;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cacdd8;
+  }
+}

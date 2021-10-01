@@ -1,0 +1,40 @@
+.sub__navigation {
+  width: 60%;
+  a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: $gray;
+    margin-right: 30px;
+    transition: all 0.3s ease-in;
+    &:focus,
+    &:hover,
+    &:first-child {
+      color: black;
+      border-bottom: 1px solid $blue;
+    }
+  }
+}
+
+.productCard__wrapButton {
+  .btn--add {
+    align-items: center;
+    padding: 8px 20px;
+    width: 160px;
+    height: 37px;
+    border: 2px solid #0156ff;
+    border-radius: 50px;
+    span {
+      color: $blue;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 21px;
+    }
+    &:hover {
+      background-color: #0156ff;
+      span {
+        color: white;
+      }
+    }
+  }
+}

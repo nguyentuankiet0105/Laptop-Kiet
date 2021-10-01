@@ -1,0 +1,37 @@
+.lazyLoad-wrapper {
+  margin: 14px 0 25px 0;
+  display: grid;
+  grid-template-areas:
+    "navSub navSub navSub navSub navSub navSub"
+    "banner productCart productCart productCart productCart productCart";
+
+  .sub__navigation {
+    grid-area: navSub;
+    margin-bottom: 15px;
+  }
+  .introduceCard {
+    grid-area: banner;
+  }
+  .react-multi-carousel-list {
+    grid-area: productCart;
+  }
+  .productCard {
+    height: 100%;
+  }
+  .react-multiple-carousel__arrow--right {
+    right: 2px;
+    border-radius: 30px 0 0 30px;
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0;
+    border-radius: 0px 30px 30px 0px;
+  }
+  .react-multiple-carousel__arrow--right,
+  .react-multiple-carousel__arrow--left {
+    background: #666666;
+    opacity: 0.2;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+}

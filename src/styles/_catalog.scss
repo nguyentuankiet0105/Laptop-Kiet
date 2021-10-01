@@ -1,0 +1,132 @@
+.catalogProduct {
+  .ant-breadcrumb {
+    padding: 20px 0;
+  }
+  &__navBar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    &--left {
+      width: 233px;
+      padding: 15px;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 21px;
+      text-align: center;
+      &:hover {
+        cursor: pointer;
+        background-color: $blue-light;
+        transition: 0.2s ease-in;
+      }
+      span {
+        margin-right: 5px;
+      }
+    }
+    .catalogProduct--h1 {
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 48px;
+    }
+    &--right {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      gap: 0 15px;
+      .itemNumber {
+        width: 678px;
+        span {
+          font-size: 13px;
+          line-height: 210%;
+          color: #a2a6b0;
+          margin-left: 5px;
+        }
+      }
+      .ant-dropdown-trigger {
+        width: 176px;
+        height: 50px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 210%;
+        color: #a2a6b0;
+      }
+      .icon {
+        width: 110px;
+        display: flex;
+        justify-content: space-evenly;
+        span {
+          font-size: 25px;
+        }
+        a {
+          color: #a2a6b0;
+        }
+        &--gridDisplay:hover,
+        &--rowDisplay:hover {
+          cursor: pointer;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
+  .Wrap-btnTag {
+    .ant-btn {
+      margin-right: 5px;
+    }
+    .ant-btn:hover {
+      color: rgba(201, 77, 63, 1);
+      border: 1px solid rgba(201, 77, 63, 1);
+    }
+  }
+  &__wrapProduct {
+    display: flex;
+    gap: 7px 2px !important;
+    margin-bottom: 25px;
+  }
+  .MoreInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 0;
+    .pseudo--WrapText {
+      width: 100%;
+      height: 135px;
+      background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 1)
+      );
+      position: absolute;
+      z-index: 1;
+    }
+    &--hideText {
+      -webkit-line-clamp: 6;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      display: -webkit-box;
+    }
+    &--text {
+      font-size: 12px;
+      line-height: 18px;
+      color: #8c8c8c;
+      margin-bottom: 25px;
+    }
+    .ant-btn {
+      height: 37px;
+      width: 88px;
+      color: #a2a6b0;
+      border: 2px solid #a2a6b0;
+      border-radius: 50px;
+      &:hover {
+        color: #40a9ff;
+        border: 2px solid #40a9ff;
+      }
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+      }
+    }
+  }
+}

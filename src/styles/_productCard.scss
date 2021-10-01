@@ -1,0 +1,53 @@
+.productCard {
+  border-radius: 2px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px 25px;
+  background-color: white;
+  transition: 0.2s ease-in;
+  &:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.14);
+    transition: 0.3s ease-in;
+    background-color: $blue-light;
+  }
+  &__status {
+    &--inStock {
+      font-size: 10px;
+      line-height: 210%;
+      color: #78a962;
+    }
+    &--availability {
+      font-size: 10px;
+      line-height: 210%;
+      color: #c94d3f;
+    }
+  }
+  &__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+  }
+  &__price {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+  }
+
+  p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000;
+  }
+  img {
+    width: 100%;
+    transition: transform 0.3s ease 0s;
+  }
+  img:hover {
+    cursor: pointer;
+    transform: scale(1.075);
+  }
+}

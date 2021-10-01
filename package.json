@@ -1,0 +1,61 @@
+{
+  "name": "laptop-ecommerce",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https:/nguyentuankiet0105.github.io/Laptop-Kiet",
+  "dependencies": {
+    "@ant-design/icons": "^4.6.4",
+    "@reduxjs/toolkit": "^1.6.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "antd": "^4.16.12",
+    "axios": "^0.21.4",
+    "bootstrap": "^5.1.0",
+    "messaging-api-messenger": "^1.0.6",
+    "mobx": "^6.3.3",
+    "mobx-react": "^7.2.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-firebaseui": "^5.0.2",
+    "react-google-login": "^5.2.2",
+    "react-multi-carousel": "^2.6.5",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-scroll-to-top": "^1.0.5",
+    "react-shopping-cart": "^1.9.5",
+    "react-toastify": "^8.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
