@@ -1,7 +1,7 @@
-import { Button, Drawer } from "antd";
-import { UnorderedListOutlined } from "@ant-design/icons";
-import * as React from "react";
-import { Link } from "react-router-dom";
+import { Button, Drawer } from 'antd';
+import { UnorderedListOutlined } from '@ant-design/icons';
+import * as React from 'react';
+import { Link } from 'react-router-dom';
 const Navigation = () => {
   const [visible, setVisible] = React.useState(false);
 
@@ -17,7 +17,7 @@ const Navigation = () => {
       <div className="tableHidden">
         <ul className="header__navigation--WrapItem">
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link>Laptops</Link>
@@ -46,18 +46,10 @@ const Navigation = () => {
         </ul>
       </div>
       <div className="tableVisible">
-        <UnorderedListOutlined
-          style={{ fontSize: "30px", color: "#fff" }}
-          onClick={showDrawer}
-        />
-        <Drawer
-          title="Menu"
-          placement="left"
-          onClose={onClose}
-          visible={visible}
-        >
+        <UnorderedListOutlined style={{ fontSize: '30px', color: '#fff' }} onClick={showDrawer} />
+        <Drawer title="Menu" placement="left" onClose={onClose} visible={visible}>
           <li>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <Link>Laptops</Link>
@@ -84,7 +76,7 @@ const Navigation = () => {
             <Link to="/aboutUs">Our Deals</Link>
           </li>
           <li>
-            <Link to="/login">Sign in</Link>
+            <Link to="/">Sign in</Link>
           </li>
         </Drawer>
       </div>

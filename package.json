@@ -2,7 +2,7 @@
   "name": "laptop-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https:/nguyentuankiet0105.github.io/Laptop-Kiet",
+  "homepage": "http://nguyentuankiet0105.github.io/Laptop-Kiet",
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
     "@reduxjs/toolkit": "^1.6.1",
