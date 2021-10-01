@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Laptop-Kiet/static/css/main.6e90df98.chunk.css",
-    "main.js": "/Laptop-Kiet/static/js/main.3daea775.chunk.js",
-    "main.js.map": "/Laptop-Kiet/static/js/main.3daea775.chunk.js.map",
+    "main.js": "/Laptop-Kiet/static/js/main.c70d1b53.chunk.js",
+    "main.js.map": "/Laptop-Kiet/static/js/main.c70d1b53.chunk.js.map",
     "runtime-main.js": "/Laptop-Kiet/static/js/runtime-main.a2b5deeb.js",
     "runtime-main.js.map": "/Laptop-Kiet/static/js/runtime-main.a2b5deeb.js.map",
     "static/css/2.1cae2118.chunk.css": "/Laptop-Kiet/static/css/2.1cae2118.chunk.css",
@@ -41,6 +41,6 @@
     "static/css/2.1cae2118.chunk.css",
     "static/js/2.bd010826.chunk.js",
     "static/css/main.6e90df98.chunk.css",
-    "static/js/main.3daea775.chunk.js"
+    "static/js/main.c70d1b53.chunk.js"
   ]
 }
